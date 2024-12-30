@@ -1,4 +1,4 @@
-# Dio <br>Desafio E-commerce
+# Dio <br>Desafio E-commerce - etapa 1
 Dentro da formação **Suzano - Análise de Dados com Power BI**, no módulo *"Introdução a Banco de dados Relacionais"* este é primeiro desafio a ser entregue.
 <br><br>**Minimundo**<br>
 Devemos criar uma aplicação de venda de produtos on-line, que possui um banco de dados relacional fornecendo dados para o e-commerce. Um cliente faz um 
@@ -76,4 +76,10 @@ Criar um modelo MER.
 8) O mesmo ocorre entre produto e fornecedor, criamos a tabela **fornecedor-produto**
    fornecedor (1) --- (N) fornecedor-produto (N) --- (1) produto
    
-   
+# Desafio ecommerce - etapa 2: projeto lógico
+## remodelagem do MER
+Quando do projeto lógico para criacao do banco de dados, nos deparamos com alguns novos desafios e refinamentos, por isso, o MER foi alterado para refletir esta nova realidade
+## criação dos scripts 
+ecommerce_create.sql - criação do banco de dados e das tabelas
+ecommerce_insert.sql - inserção dos dados nas diversas tabelas para teste do banco de dados
+ecommerce_select.sql - exemplos de selects para buscar dados, usando having, group by, order by, join, etc.
