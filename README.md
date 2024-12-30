@@ -80,6 +80,6 @@ Criar um modelo MER.
 ## remodelagem do MER
 Quando do projeto lógico para criacao do banco de dados, nos deparamos com alguns novos desafios e refinamentos, por isso, o MER foi alterado para refletir esta nova realidade
 ## criação dos scripts 
-ecommerce_create.sql - criação do banco de dados e das tabelas
-ecommerce_insert.sql - inserção dos dados nas diversas tabelas para teste do banco de dados
+ecommerce_create.sql - criação do banco de dados e das tabelas<br>
+ecommerce_insert.sql - inserção dos dados nas diversas tabelas para teste do banco de dados<br>
 ecommerce_select.sql - exemplos de selects para buscar dados, usando having, group by, order by, join, etc.
