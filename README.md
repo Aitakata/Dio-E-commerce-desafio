@@ -77,9 +77,19 @@ Criar um modelo MER.
    fornecedor (1) --- (N) fornecedor-produto (N) --- (1) produto
    
 # Desafio ecommerce - etapa 2: projeto lógico
-## remodelagem do MER
+## 2.1: replica da versao da professora Juliana Mascarenhas 
+A replica tem algumas mudanças como, por exemplo, o tratamento do tipo de pagamento (em dinheiro vivo, cartão de crédito, cartão de débito, pix) sugeridas pela própria professora e outras mudanças como o tratamento de localização e a inclusão de novos atributos como data de ultima atualização do cadastro, preço unitário dos produtos, mudança de tamanho de atributos, inclusao da tabela de relacionamento entre pedido e pagamento, novos constraints, etc.
+Para questão de localicação os arquivos foram designados:
+### MER 
+- ecommerce-replicaJulianaMascarenhas-com-melhorias.pdf
+### Scripts para criação do BD e das tabelas, inserção dos dados de teste, e consultas no BD
+- ecommerce-create-replicaJulianaMascarenhas-com-melhorias.sql  - criação do banco de dados e das tabelas<br>
+- ecommerce-insert-replicaJulianaMascarenhas-com-melhorias.sql  - inserção dos dados nas tabelas <br>
+- ecommerce-select-replicaJulianaMascarenhas-com-melhorias.sql  - exemplos de select para busca dos daos
+
+## 2.2: Remodelagem do MER
 Quando do projeto lógico para criacao do banco de dados, nos deparamos com alguns novos desafios e refinamentos, por isso, o MER foi alterado para refletir esta nova realidade
-## criação dos scripts 
+### Criação dos scripts 
 ecommerce_create.sql - criação do banco de dados e das tabelas<br>
 ecommerce_insert.sql - inserção dos dados nas diversas tabelas para teste do banco de dados<br>
 ecommerce_select.sql - exemplos de selects para buscar dados, usando having, group by, order by, join, etc.
